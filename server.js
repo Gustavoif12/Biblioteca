@@ -27,7 +27,7 @@ server.get('/livro', () => {
 server.get('/artigo', () => {
     return 'Paginas de artigo!'
 })
-// passanso a porta com objecto
+// passando a porta com objecto
 server.listen({
     port: 3333,
 })
